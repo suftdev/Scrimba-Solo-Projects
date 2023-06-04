@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #23252c;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.container {
+  margin: auto;
+  margin-top: 50px;
+  width: 20%;
+  background: #1a1b21;
+}
+.container img {
+  max-width: 100%;
+}
+
+/* Info Component Style */
+.info-section {
+  text-align: center;
+  padding-block: 10px;
+}
+.info-section > h1,
+.info-section > h4 {
+  padding-bottom: 5px;
+}
+.info-section > h4 {
+  color: #f3bf99;
+  font-weight: 400;
+}
+.info-section > p {
+  color: #f5f5f5;
+  font-size: 11px;
+  font-weight: 200;
+  padding-bottom: 8px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-content: start;
+}
+.emailbutton {
+  color: #374151;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+}
+.emailbutton > img {
+  padding-right: 8px;
+}
+.linkedinbutton {
+  padding: 8px 15px;
+  margin-left: 25px;
+  background: #5093e2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.linkedinbutton > img {
+  padding-right: 8px;
+}
+
+/* About and Interests Component Style */
+.text {
+  margin-left: 25px;
+  padding-block: 10px;
+}
+.text > p {
+  color: #f5f5f5;
+  font-size: 11px;
+  font-weight: 200;
+  padding-top: 3px;
+  line-height: 1.1rem;
+}
+
+/* Footer Component Style */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 0px 25px;
+  background: #161619;
+}
+.footer > footer > img {
+  padding: 0px 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin-top: 0%;
+  }
+  .container > img {
+    width: 100%;
+  }
+}
